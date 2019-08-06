@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="xbap.exe" version="1.0.0.0" publicKeyToken="b578d755021a2acb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="xbap" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="xbap.exe" parameters="" />
+    <hostInBrowser xmlns="urn:schemas-microsoft-com:asm.v3" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site">
+          <IPermission class="System.Security.Permissions.FileDialogPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Access="Open" />
+          <IPermission class="System.Security.Permissions.IsolatedStorageFilePermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Allowed="ApplicationIsolationByUser" UserQuota="512000" />
+          <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="Execution" />
+          <IPermission class="System.Security.Permissions.UIPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Window="SafeTopLevelWindows" Clipboard="OwnClipboard" />
+          <IPermission class="System.Drawing.Printing.PrintingPermission, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" version="1" Level="SafePrinting" />
+          <IPermission class="System.Security.Permissions.MediaPermission, WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" version="1" Audio="SafeAudio" Video="SafeVideo" Image="SafeImage" />
+          <IPermission class="System.Security.Permissions.WebBrowserPermission, WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" version="1" Level="Safe" />
+        </PermissionSet>
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="xbap.exe" size="8616">
+      <assemblyIdentity name="xbap" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>QfndAHTdR1Ua5N5paLo5PyDdEMU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=WW-GWG62G2X\jriebl" issuerKeyHash="aba1624fed62dc070bcd042c4471bb32127ab32d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Bi19ylz1QeYD3xWzTCd09PcTp6o=</DigestValue></Reference></SignedInfo><SignatureValue>ZpcWfPa7AzlU+/M6rW8uV4qZ9CG91yYNXZV+Nxwx0JCWI0aXVt0O5rNJfARCUH7m6I0NDsDwwXkmMEHd9vEhT8hF1V1aLEoUj5bl/BHoWEoAh0zWdk7shfbVM54AbMf4dXK7BvM7SlcoH4+9Y+oEL+Z+skwGf2pghBxbqwm84A8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>r9CqBZbTgfP5QiLCKUZNRggyydkRup7GfZuAfBLLMfiuYdKEgxFgEnCbPCKVCRAG7lD8Ge0MArWicIIwOSxS1IN7EVvY5vF1oYVjVnjbWah7EOJyGXhw4nIK2YMunDtn6HDATSlGZ8FEkKBra1cpIWBc6MbSDLqgvB9W2meMtaU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aaa713f7f474274cb315df03e641f55cca7d2d06" Description="" Url=""><as:assemblyIdentity name="xbap.exe" version="1.0.0.0" publicKeyToken="b578d755021a2acb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WW-GWG62G2X\jriebl</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>QfG9xRXt8qZAZ6AcqMz67IXQtkA=</DigestValue></Reference></SignedInfo><SignatureValue>FrwYvi/dRVwAEd2NBNgNtf5k6aGqXoce0Ea2C228FPYSWdpcViKbuRcsF9tB6We+8um2q1nks7KWsevZ/7L6EF5wbramojg1coJbjZpbW22p++u21TeqWjikO6G24Yd2eNfpLgDnbXQ66u+PLq0hBej8fsYSUgZw6hu/T+fbBI0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>r9CqBZbTgfP5QiLCKUZNRggyydkRup7GfZuAfBLLMfiuYdKEgxFgEnCbPCKVCRAG7lD8Ge0MArWicIIwOSxS1IN7EVvY5vF1oYVjVnjbWah7EOJyGXhw4nIK2YMunDtn6HDATSlGZ8FEkKBra1cpIWBc6MbSDLqgvB9W2meMtaU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQFZHpjGg4haxBe00S6+TPrzANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAVwBXAC0ARwBXAEcANgAyAEcAMgBYAFwAagByAGkAZQBiAGwwHhcNMTkwODA2MDU1MTAyWhcNMjAwODA1MTE1MTAyWjAvMS0wKwYDVQQDHiQAVwBXAC0ARwBXAEcANgAyAEcAMgBYAFwAagByAGkAZQBiAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK/QqgWW04Hz+UIiwilGTUYIMsnZEbqexn2bgHwSyzH4rmHShIMRYBJwmzwilQkQBu5Q/BntDAK1onCCMDksUtSDexFb2ObxdaGFY1Z421moexDichl4cOJyCtmDLpw7Z+hwwE0pRmfBRJCga2tXKSFgXOjG0gy6oLwfVtpnjLWlAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAdpSjvEQCc28249XJdZZxYiuXn4fTiSSUda39zHjs1NnJV1PvaSPFs1UMNys66u1cd6wo6C64YKGq0mo/VgWEJYjT5Mfiecp4IFG7if8gelatGVTnkSUzl2Paoc7FTdPvUzBQyzMirURxdkOUwZH+JNWRP0Oy24WrmEHnzAg+ixE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
