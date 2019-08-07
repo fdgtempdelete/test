@@ -3,7 +3,6 @@
   <asmv1:assemblyIdentity name="ClickOnce.exe" version="1.0.0.7" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="ClickOnce" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="ClickOnce.exe" parameters="" />
   </entryPoint>
   <trustInfo>
